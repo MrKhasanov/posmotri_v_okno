@@ -39,7 +39,7 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(2, 711px 399px);
+  grid-template-columns: repeat(2, 711px 1fr);
   align-items: end;
   width: 1140px;
   gap: 30px;
@@ -109,6 +109,7 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 5px;
 }
 
 .title {
@@ -135,6 +136,7 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
+  margin: 2px;
 }
 
 .content__video-card-title {
@@ -177,7 +179,9 @@ ol {
 .search-form__label {
   display: inline-flex;
   width: fit-content;
-  padding-top: 5px;
+  padding-top: 5p;
+  gap: 5px;
+  align-items: center;
 }
 
 .search-form__textfield {
@@ -215,11 +219,6 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label {
-  gap: 5px;
-  align-items: center;
-}
-
 .button {
   color: #fff;
   text-align: center;
@@ -231,6 +230,9 @@ ol {
   font-weight: 700;
   line-height: normal;
   appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
 }
 
 .search-form__submit-button {
@@ -241,14 +243,10 @@ ol {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  background-color: transparent;
   margin-top: 20px;
-  border: 1px solid #fff;
-  cursor: pointer;
 }
 
 .more-button {
-  cursor: pointer;
   display: flex;
   width: 399px;
   height: 34px;
@@ -256,12 +254,11 @@ ol {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  border: 1px solid #fff;
-  background: transparent;
 }
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__textfield:focus {
@@ -306,10 +303,17 @@ ol {
 .content__card-link:focus {
   outline: none;
 }
+
 .content__card-link:focus-visible {
-  width: 398px;
-  height: 107px;
   flex-shrink: 0;
   border: 1px solid #fff;
-  margin: 2px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
