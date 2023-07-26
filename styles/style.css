@@ -43,7 +43,7 @@ ol {
   align-items: end;
   width: 1140px;
   gap: 30px;
-  margin: 273px 30px;
+  margin: 273px 30px 133px 30px;
 }
 
 .search-form {
@@ -102,7 +102,9 @@ ol {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family:
+    Fira Sans Condensed,
+    sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -149,7 +151,9 @@ ol {
 
 .content__video-card-description {
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family:
+    Fira Sans Condensed,
+    sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -174,6 +178,7 @@ ol {
 .search-form__label {
   display: inline-flex;
   width: fit-content;
+  padding-top: 5px;
 }
 
 .search-form__textfield {
@@ -184,12 +189,13 @@ ol {
   gap: 10px;
   background: transparent;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family:
+    Fira Sans Condensed,
+    sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 5px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   appearance: none;
@@ -197,9 +203,9 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  width: 221px;
+  width: 212px;
   justify-content: space-between;
-  margin-top: 5px;
+  padding-top: 5px;
   appearance: none;
 }
 
@@ -219,7 +225,9 @@ ol {
 .button {
   color: #fff;
   text-align: center;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family:
+    Fira Sans Condensed,
+    sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
