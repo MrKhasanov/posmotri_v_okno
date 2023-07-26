@@ -179,7 +179,6 @@ ol {
 .search-form__label {
   display: inline-flex;
   width: fit-content;
-  padding-top: 5p;
   gap: 5px;
   align-items: center;
 }
@@ -280,7 +279,7 @@ ol {
 }
 
 .button:active {
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
   background: #545050;
 }
 
@@ -293,7 +292,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 
 .content__list-item:hover {
@@ -306,7 +305,7 @@ ol {
 
 .content__card-link:focus-visible {
   flex-shrink: 0;
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 
 .button:focus {
