@@ -42,7 +42,7 @@ ol {
   grid-template-columns: 711px 1fr;
   align-items: end;
   gap: 30px;
-  margin: 133px 30px 133px 30px;
+  padding: 133px 30px;
 }
 
 .search-form {
